@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="1"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/imgAnhNen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/anh1"
+            android:background="@drawable/ic_shapebganh"/>
+
+<!--        <ImageView-->
+<!--            android:layout_width="130dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:src="@drawable/ic_shapebgsearch"-->
+<!--            android:layout_gravity="bottom"/>-->
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_shapebgsearch">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp">
+                        <TextView
+                            android:id="@+id/txtTenBH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="Lemon tree"/>
+                        <TextView
+                            android:id="@+id/txtCaSi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fools Garden"
+                            android:textColor="@color/white"
+                            android:textSize="8sp"/>
+                </LinearLayout>
+
+                <ImageButton
+                    style="@android:style/Widget.Holo.Light.ImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_play_circle" />
+        </LinearLayout>
+    </FrameLayout>
+</GridLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:background="@drawable/ic_shapebganh"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/anh" />
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/txtSong"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Kill this love"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/txtSinger"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Blackpink"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibMore2"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_more2"/>
+</LinearLayout>
