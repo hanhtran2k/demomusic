@@ -19,6 +19,7 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/ibNext"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_next"/>
@@ -34,6 +35,7 @@
                 android:textSize="16sp" />
 
             <ImageButton
+                android:id="@+id/ibMore"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_more" />
@@ -56,12 +58,14 @@
             android:layout_marginBottom="30dp">
 
             <TextView
+                android:id="@+id/txtSongs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Songs"
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/txtArtists"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -69,6 +73,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/txtAlbum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -77,6 +82,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/txtPlaylist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Playlist"
@@ -100,7 +106,8 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/ibHome"
                     style="@style/Widget.AppCompat.ImageButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -121,6 +128,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/ibMusic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_music" />
@@ -139,6 +147,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/ibFavorite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_favorite" />
@@ -157,6 +166,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/ibNotifications"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_notifications" />

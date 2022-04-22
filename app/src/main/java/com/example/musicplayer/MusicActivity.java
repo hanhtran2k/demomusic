@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.musicplayer.model.Song;
+
 import java.util.ArrayList;
 
 public class MusicActivity extends AppCompatActivity {
