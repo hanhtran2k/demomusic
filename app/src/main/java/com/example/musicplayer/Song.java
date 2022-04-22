@@ -9,6 +9,8 @@ public class Song {
         this.anh = anh;
         this.tenBH = tenBH;
         this.caSi = nhacSi;
+
+        test
     }
 
     public int getAnh() {
