@@ -46,17 +46,17 @@ public class MainActivity extends AppCompatActivity {
                     loadFragment(fragment);
                     return true;
                 case R.id.action_music:
-                    toolbar.setTitle("My Gifts");
+                    toolbar.setTitle("Music");
                     fragment = new MusicFragment();
                     loadFragment(fragment);
                     return true;
                 case R.id.action_favorite:
-                    toolbar.setTitle("Cart");
+                    toolbar.setTitle("Favorite");
                     fragment = new FavoriteFragment();
                     loadFragment(fragment);
                     return true;
                 case R.id.action_notifications:
-                    toolbar.setTitle("Profile");
+                    toolbar.setTitle("Notifications");
                     fragment = new NotificationsFragment();
                     loadFragment(fragment);
                     return true;
