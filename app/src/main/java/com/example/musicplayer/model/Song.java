@@ -1,4 +1,4 @@
-package com.example.musicplayer;
+package com.example.musicplayer.model;
 
 public class Song {
     private int anh;
@@ -9,6 +9,8 @@ public class Song {
         this.anh = anh;
         this.tenBH = tenBH;
         this.caSi = nhacSi;
+
+      //test
     }
 
     public int getAnh() {

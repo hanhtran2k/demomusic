@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.musicplayer.model.Song;
+
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
